@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+
+# Mie scattering by perfect conductive cylinder
+# This test program can be applied for the comparison of BEM solution
+
 from scipy.special import jv, yv, jvp, yvp
 from numpy import vectorize, linspace, zeros_like, exp, cos, pi, real, imag
 
